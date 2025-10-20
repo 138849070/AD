@@ -1,4 +1,4 @@
-#!name = 酷安全面净化
+#!name = 酷安LV20
 #!author = xm
 #!update = 2024-07-19 00:45
 
