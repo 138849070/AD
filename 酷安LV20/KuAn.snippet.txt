@@ -4,11 +4,10 @@
 
 ^https:\/\/api\.coolapk\.com\/v6\/user\/profile url jsonjq-response-body '.data.level = 20|.data.fans =99999|.data.experience =94575543|.data.next_level_experience =200000000'
 https:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch url reject-dict
-^https:\/\/api\.coolapk\.com\/v6\/main\/init url script-response-body https://raw.githubusercontent.com/138849070/AD/refs/heads/main/KuAn.js
-^https:\/\/api\.coolapk\.com\/v6\/main\/indexV8 url script-response-body https://raw.githubusercontent.com/138849070/AD/refs/heads/main/KuAn.js
-^https:\/\/api\.coolapk\.com\/v6\/page\/dataList url script-response-body https://raw.githubusercontent.com/138849070/AD/refs/heads/main/KuAn.js
-^https:\/\/api\.coolapk\.com\/v6\/account\/loadConfig\?key=my_page_card_config url script-response-body https://raw.githubusercontent.com/138849070/AD/refs/heads/main/KuAn.js
-
+^https:\/\/api\.coolapk\.com\/v6\/main\/init url script-response-body https://raw.githubusercontent.com/138849070/AD/refs/heads/main/%E9%85%B7%E5%AE%89LV20/KuAn.js
+^https:\/\/api\.coolapk\.com\/v6\/main\/indexV8 url script-response-body https://raw.githubusercontent.com/138849070/AD/refs/heads/main/%E9%85%B7%E5%AE%89LV20/KuAn.js
+^https:\/\/api\.coolapk\.com\/v6\/page\/dataList url script-response-body https://raw.githubusercontent.com/138849070/AD/refs/heads/main/%E9%85%B7%E5%AE%89LV20/KuAn.js
+^https:\/\/api\.coolapk\.com\/v6\/account\/loadConfig\?key=my_page_card_config url script-response-body https://raw.githubusercontent.com/138849070/AD/refs/heads/main/%E9%85%B7%E5%AE%89LV20/KuAn.js
 
 
 hostname = api.coolapk.com
